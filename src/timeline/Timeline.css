@@ -1,6 +1,8 @@
 .timeline {
     display: flex;
     flex-direction: row;
+    margin-left: 15px;
+
 }
 
 .timeline__left {
@@ -9,4 +11,41 @@
 
 .timeline__right {
     flex: 0.3;
+    margin: 0px 20px;
+    font-weight: bold;
+    justify-content: center;
+}
+
+
+.stories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    height: 80px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.posts {
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.suggestions__title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timeline {
+    margin: 10px;
+}
+
+.switch {
+    margin-right: auto;
 }

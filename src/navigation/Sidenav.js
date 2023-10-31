@@ -8,6 +8,7 @@ import MessageIcon from '@mui/icons-material/Message';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import AddBoxIcon from '@mui/icons-material/AddBox';
 import MenuIcon from '@mui/icons-material/Menu';
+import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 
 function Sidenav() {
     return (
@@ -46,6 +47,10 @@ function Sidenav() {
                 <button className="side__button">
                     <AddBoxIcon/>
                     <span>Create</span>
+                </button>
+                <button className="side__button">
+                    <AccountCircleIcon/>
+                    <span>Profile</span>
                 </button>
             </div>
             <div className="sidenav__more">
