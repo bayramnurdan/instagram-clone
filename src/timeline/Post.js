@@ -19,9 +19,11 @@ function Post() {
             </div>
             <img src={pic}/>
             <div class="icons__below__post">
-                <FavoriteBorderIcon/>
-                <AddCommentIcon/>
-                <SendIcon/>
+                <div className="icons__left">
+                    <FavoriteBorderIcon/>
+                    <AddCommentIcon/>
+                    <SendIcon/>
+                </div>
                 <div className="saveicon">
                     <LibraryAddIcon/>
                 </div>

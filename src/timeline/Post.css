@@ -11,14 +11,13 @@
     padding: 0px;
 }
 
-.icons__below__post * {
-    margin: 2px 5px;
+.icons__left * {
+    margin: 2px 9px 2px 0px
 }
 
 .saveicon {
     margin-left: auto;
-    margin-right: 0px !important;
-    padding: 0px;
+    margin-right: 0px;
 }
 
 .post {

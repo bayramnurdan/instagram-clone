@@ -1,7 +1,7 @@
 .timeline {
     display: flex;
     flex-direction: row;
-    margin-left: 15px;
+    padding: 22px 0px 0px
 
 }
 
@@ -11,9 +11,10 @@
 
 .timeline__right {
     flex: 0.3;
-    margin: 0px 20px;
+    margin: 36px 0px 0px;
     font-weight: bold;
     justify-content: center;
+    padding: 0px 0px 0px 64px;
 }
 
 
@@ -23,9 +24,11 @@
     align-items: center;
     justify-content: space-between;
     font-size: 12px;
-    height: 80px;
-    padding-left: 50px;
-    padding-right: 50px;
+    height: 101px;
+    width: 630px;
+    padding: 8px 0px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .posts {
